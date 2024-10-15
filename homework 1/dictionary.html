@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Словарь тегов</title>
-  <link rel="icon" href="icon.ico" type="image/x-icon" />
-  <h1 style="text-align: center; background-color: aliceblue">
+  <link rel="icon" href="icon.png" type="image/png" /> <!-- Иконка сайта -->
+  <title>Словарь тегов</title> <!-- Название сайта -->
+  <h1 style="text-align: center;">
     <b>Словарь тегов</b>
   </h1>
   <hr />
@@ -13,14 +13,52 @@
 
 <body>
   <style>
-    table,
-    th,
-    td {
-      border: 1px solid black;
+    body { /* Форматирование текста */
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4; 
+        margin: 20px;
     }
+    table { /* Форматирование таблицы */
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        background-color: #fff;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    th, td { /* Форматирование размера ячеек и направление текста в них */
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+    }
+    th { /* Цвет имени ячеек стобцов */
+        background-color: #3fc9bd;
+        color: white;
+    }
+    tr:nth-child(even) { /* Цвет ячеек 1 */
+        background-color: #f2f2f2;
+    }
+    tr:hover { /* Цвет ячеек 2 */
+        background-color: #ddd;
+    }
+    a { /* Цвет ссылки */
+      color: black
+    }
+    a:hover { /* Цвет ссылки при наведении */
+      color: blue
+    }
+    footer {
+            text-align: center; /* Центрирование текста в подвале */
+            padding: 10px; /* Отступы в подвале */
+            background-color: #333; /* Цвет фона подвала */
+            color: white; /* Цвет текста в подвале */
+            position: fixed;
+            width: 100%; /* Ширина подвала на всю ширину страницы */
+            bottom: 0; /* Прикрепляем к низу страницы */
+        }
   </style>
-  <div>
-    <h2 style="background-color: aliceblue;">Базовый HTML-код</h2>
+  
+  <div> <!-- Раздел с таблицами -->
+    <h2>Базовый HTML-код</h2>
     <table>
       <tbody>
         <tr>
@@ -87,7 +125,7 @@
         </tr>
       </tbody>
     </table>
-    <h2 style="background-color: aliceblue;">Форматирование</h2>
+    <h2>Форматирование</h2>
     <table>
       <tbody>
         <tr>
@@ -325,7 +363,7 @@
         </tr>
       </tbody>
     </table>
-    <h2 style="background-color: aliceblue;">Формы и ввод</h2>
+    <h2>Формы и ввод</h2>
     <table>
       <tbody>
         <tr>
@@ -393,7 +431,7 @@
         </tr>
       </tbody>
     </table>
-    <h2 style="background-color: aliceblue;">Рамки</h2>
+    <h2>Рамки</h2>
     <table>
       <tbody>
         <tr>
@@ -434,7 +472,7 @@
         </tr>
       </tbody>
     </table>
-    <h2 style="background-color: aliceblue;">Изображения</h2>
+    <h2>Изображения</h2>
     <table>
       <tbody>
         <tr>
@@ -486,7 +524,7 @@
         </tr>
       </tbody>
     </table>
-    <h2 style="background-color: aliceblue;">Аудио/видео</h2>
+    <h2>Аудио/видео</h2>
     <table>
       <tbody>
         <tr>
@@ -519,7 +557,7 @@
         </tr>
       </tbody>
     </table>
-    <h2 style="background-color: aliceblue;">Ссылки</h2>
+    <h2>Ссылки</h2>
     <table>
       <tbody>
         <tr>
@@ -543,7 +581,7 @@
         </tr>
       </tbody>
     </table>
-    <h2 style="background-color: aliceblue;">Списки</h2>
+    <h2>Списки</h2>
     <table>
       <tbody>
         <tr>
@@ -597,7 +635,7 @@
         </tr>
       </tbody>
     </table>
-    <h2 style="background-color: aliceblue;">Таблицы</h2>
+    <h2>Таблицы</h2>
     <table>
       <tbody>
         <tr>
@@ -652,7 +690,7 @@
         </tr>
       </tbody>
     </table>
-    <h2 style="background-color: aliceblue;">Стили и семантика</h2>
+    <h2>Стили и семантика</h2>
     <table>
       <tbody>
         <tr>
@@ -730,7 +768,7 @@
         </tr>
       </tbody>
     </table>
-    <h2 style="background-color: aliceblue;">Мета Инфо</h2>
+    <h2>Мета Инфо</h2>
     <table>
       <tbody>
         <tr>
@@ -765,7 +803,7 @@
         </tr>
       </tbody>
     </table>
-    <h2 style="background-color: aliceblue;">Программирование</h2>
+    <h2>Программирование</h2>
     <table>
       <tbody>
         <tr>
