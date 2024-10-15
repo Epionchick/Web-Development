@@ -3,9 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" href="icon.png" type="image/png" /> <!-- Иконка сайта -->
-  <title>Словарь тегов</title> <!-- Название сайта -->
-  <h1 style="text-align: center;">
+  <link rel="icon" href="icon.png" type="image/png" />
+  <!-- Иконка сайта -->
+  <title>Словарь тегов</title>
+  <!-- Название сайта -->
+  <h1 style="text-align: center">
     <b>Словарь тегов</b>
   </h1>
   <hr />
@@ -13,51 +15,52 @@
 
 <body>
   <style>
-    body { /* Форматирование текста */
-        font-family: Arial, sans-serif;
-        background-color: #f4f4f4; 
-        margin: 20px;
+    body {
+      /* Форматирование текста */
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 20px;
     }
-    table { /* Форматирование таблицы */
-        width: 100%;
-        border-collapse: collapse;
-        margin: 20px 0;
-        background-color: #fff;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    table {
+      /* Форматирование таблицы */
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      background-color: #fff;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     }
-    th, td { /* Форматирование размера ячеек и направление текста в них */
-        border: 1px solid #ddd;
-        padding: 12px;
-        text-align: left;
+    th,
+    td {
+      /* Форматирование размера ячеек и направление текста в них */
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
     }
-    th { /* Цвет имени ячеек стобцов */
-        background-color: #3fc9bd;
-        color: white;
+    th {
+      /* Цвет имени ячеек стобцов */
+      background-color: #3fc9bd;
+      color: white;
     }
-    tr:nth-child(even) { /* Цвет ячеек 1 */
-        background-color: #f2f2f2;
+    tr:nth-child(even) {
+      /* Цвет ячеек 1 */
+      background-color: #f2f2f2;
     }
-    tr:hover { /* Цвет ячеек 2 */
-        background-color: #ddd;
+    tr:hover {
+      /* Цвет ячеек 2 */
+      background-color: #ddd;
     }
-    a { /* Цвет ссылки */
-      color: black
+    a {
+      /* Цвет ссылки */
+      color: black;
     }
-    a:hover { /* Цвет ссылки при наведении */
-      color: blue
+    a:hover {
+      /* Цвет ссылки при наведении */
+      color: blue;
     }
-    footer {
-            text-align: center; /* Центрирование текста в подвале */
-            padding: 10px; /* Отступы в подвале */
-            background-color: #333; /* Цвет фона подвала */
-            color: white; /* Цвет текста в подвале */
-            position: fixed;
-            width: 100%; /* Ширина подвала на всю ширину страницы */
-            bottom: 0; /* Прикрепляем к низу страницы */
-        }
   </style>
-  
-  <div> <!-- Раздел с таблицами -->
+
+  <div>
+    <!-- Раздел с таблицами -->
     <h2>Базовый HTML-код</h2>
     <table>
       <tbody>
@@ -137,7 +140,7 @@
             <a href="tags/tag_acronym.html">&lt;acronym&gt;</a>
           </td>
           <td>
-            <span style="color: red;"
+            <span style="color: red"
               >Не поддерживается в HTML5. Использовать &lt;abbr&gt; Вместо.<br /></span
             >Определяет акроним
           </td>
@@ -182,7 +185,7 @@
             <a href="tags/tag_big.html">&lt;big&gt;</a>
           </td>
           <td>
-            <span style="color: red;"
+            <span style="color: red"
               >Не поддерживается в HTML5. Вместо этого используйте CSS.<br /></span
             >Определяет большой текст
           </td>
@@ -198,7 +201,7 @@
             <a href="tags/tag_center.html">&lt;center&gt;</a>
           </td>
           <td>
-            <span style="color: red;"
+            <span style="color: red"
               >Не поддерживается в HTML5. Вместо этого используйте CSS.<br /></span
             >Определяет центрированный текст
           </td>
@@ -232,7 +235,7 @@
         <tr>
           <td><a href="tags/tag_font.html">&lt;font&gt;</a></td>
           <td>
-            <span style="color: red;"
+            <span style="color: red"
               >Не поддерживается в HTML5. Вместо этого используйте CSS.<br /></span
             >Определяет шрифт, цвет и размер текста
           </td>
@@ -309,7 +312,7 @@
             <a href="tags/tag_strike.html">&lt;strike&gt;</a>
           </td>
           <td>
-            <span style="color: red;"
+            <span style="color: red"
               >Не поддерживается в HTML5. Использовать &lt;del&gt; or &lt;s&gt;
               Вместо.<br /></span
             >Определяет текст зачеркивания
@@ -340,7 +343,7 @@
         <tr>
           <td><a href="tags/tag_tt.html">&lt;tt&gt;</a></td>
           <td>
-            <span style="color: red;"
+            <span style="color: red"
               >Не поддерживается в HTML5. Вместо этого используйте CSS.<br
             /></span>
             Определяет телетайп текст
@@ -443,8 +446,8 @@
             <a href="tags/tag_frame.html">&lt;frame&gt;</a>
           </td>
           <td>
-            <span style="color: red;">Не поддерживается в HTML5.<br /></span>Определяет окно (фрейм)
-            в фрейме
+            <span style="color: red">Не поддерживается в HTML5.<br /></span
+            >Определяет окно (фрейм) в фрейме
           </td>
         </tr>
         <tr>
@@ -452,8 +455,8 @@
             <a href="tags/tag_frameset.html">&lt;frameset&gt;</a>
           </td>
           <td>
-            <span style="color: red;">Не поддерживается в HTML5.<br /></span>Определяет набор
-            фреймов
+            <span style="color: red">Не поддерживается в HTML5.<br /></span
+            >Определяет набор фреймов
           </td>
         </tr>
         <tr>
@@ -461,9 +464,9 @@
             <a href="tags/tag_noframes.html">&lt;noframes&gt;</a>
           </td>
           <td>
-            <span style="color: red;">Не поддерживается в HTML5.<br /></span>Определяет
-            альтернативное содержимое для пользователей, которые не поддерживают
-            рамки
+            <span style="color: red">Не поддерживается в HTML5.<br /></span
+            >Определяет альтернативное содержимое для пользователей, которые не
+            поддерживают рамки
           </td>
         </tr>
         <tr>
@@ -603,7 +606,7 @@
         <tr>
           <td><a href="tags/tag_dir.html">&lt;dir&gt;</a></td>
           <td>
-            <span style="color: red;"
+            <span style="color: red"
               >Не поддерживается в HTML5. Использовать &lt;ul&gt; Вместо.<br /></span
             >Определяет список каталогов
           </td>
@@ -795,7 +798,7 @@
             <a href="tags/tag_basefont.html">&lt;basefont&gt;</a>
           </td>
           <td>
-            <span style="color: red;"
+            <span style="color: red"
               >Не поддерживается в HTML5. Вместо этого используйте CSS.<br /></span
             >Задает цвет, размер и шрифт по умолчанию для всего текста в
             документе
@@ -826,7 +829,7 @@
             <a href="tags/tag_applet.html">&lt;applet&gt;</a>
           </td>
           <td>
-            <span style="color: red;"
+            <span style="color: red"
               >Не поддерживается в HTML5. Использовать &lt;embed&gt; или
               &lt;object&gt; Вместо.<br /></span
             >Определяет встроенный апплет
