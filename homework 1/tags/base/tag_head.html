@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тег head</title> <!-- Название страницы -->
+    <style>
+
+        /* Настройка страницы. Ближе к центру --> <-- */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 20px;
+        }
+
+        /* Расположение и цвет заголовка */
+        h1 {
+            text-align: center;
+            color: #3fc9bd;
+        }
+
+        p {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Настройка пространства для кода :3 */
+        pre {
+            background-color: #272822;
+            color: #f8f8f2;
+            padding: 20px;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-family: "Courier New", Courier, monospace;
+            line-height: 1.5;
+        }
+
+        /* Цвет кода */
+        code {
+            color: #66d9ef;
+        }
+
+        /* Цвет содержимого */
+        .value {
+            color: #ffffff;
+        }
+
+        /* Кнопка "Назад" */
+        .back-button {
+            background-color: #3fc9bd; /* Цвет фона кнопки */
+            color: white; /* Цвет текста */
+            border: none; /* Без рамки */
+            padding: 15px 25px; /* Поля вокруг текста */
+            text-align: center; /* Выравнивание текста */
+            text-decoration: none; /* Убираем подчеркивание */
+            display: inline-block; /* Для правильного отображения */
+            font-size: 16px; /* Размер шрифта */
+            margin: 4px 2px; /* Внешние отступы */
+            cursor: pointer; /* Указатель на курсор */
+            border-radius: 5px; /* Закругленные углы */
+            transition: background-color 0.3s; /* Плавный переход цвета фона */
+        }
+        /* Цвет кнопки при наведении */
+        .back-button:hover {
+            background-color: #319e95; 
+        }
+    </style>
+</head>
+<body>
+    <a href="javascript:history.back()" class="back-button">Назад</a>
+
+    <h1>Тег head</h1>
+    <h2>Пример</h2>
+
+    <pre>
+        <code>
+            &lt;!DOCTYPE html&gt;
+            &lt;html&gt;
+            &lt;head&gt;
+                &lt;title&gt;<span class="value">Название документа</span>&lt;/title&gt;
+            &lt;/head&gt;<br>
+            &lt;body&gt;
+                &lt;h1&gt;<span class="value">Заголовок документа</span>&lt;/h1&gt;
+                &lt;p&gt;<span class="value">Пример кода, отображаемого на странице.</span>&lt;/p&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+        </code>
+    </pre>
+</body>
+</html>
