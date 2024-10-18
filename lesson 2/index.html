@@ -1,0 +1,119 @@
+<html>
+  <!-- Начало сайта. Главный тег HTML -->
+  <head>
+    <!--
+        <style>
+        div {
+            color:
+            background-color:
+            widht: 400 px
+            border-radius: 10px
+        }
+        h1,
+        p {
+            border: 1 px dashed aquamarine;
+        }
+        </style>
+    -->
+    <!-- Один из главных тегов, в котором подключаются шрифты, стили, мета-данные, для сео оптимизации, скрипты js -->
+    <title>Веб-разработка</title>
+    <!-- Подключение css стилей -->
+    <link rel="stylesheets" href="index.css" />
+  </head>
+  <!-- Здесь находится вся внешняя часть сайта -->
+  <body>
+    <!-- 
+            Два свойства тегов:
+            1. Блочная модель [p1, h1-h6]
+                - Осздаётся невидимый блок на всб ширину сайта
+                - Что другой блочный тег будет располагаться ниже
+            2. Строчная модель [mark, b, i, s, strong, em, u, img]
+                - Очень дружелюбно работает с блочной моделью
+                - Не образует невидимых блоков и зон
+    -->
+    <p><img src="" width="30" /></p>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero enim
+      architecto consectetur repellat vel obcaecati iure nostrum laudantium,
+      quia quaerat atque esse, asperiores, explicabo blanditiis quibusdam odit
+      quam repudiandae quae?
+    </p>
+    <p>Привет :)</p>
+    <p>Привет :P</p>
+    <h1>Привет мир :D</h1>
+
+    <!-- Тег div: парный и имеет блочную модель -->
+    <hr />
+    <div>
+      <img src="" alt="" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, eius.
+      </p>
+    </div>
+
+    <!-- Тег input - форма. Строчная модель и одиночный тип -->
+
+    <!-- input текст -->
+    <label for="login">Логин:</label>
+    <input type="text" id="login" />
+
+    <!-- input пароль -->
+    <label for="password">Пароль</label>
+    <input type="password" id="password" />
+
+    <!-- 
+        <hr />
+        <label>М</label>
+        <input type="radio" name="test" />
+        <label>Ж</label>
+        <input type="radio" name="test" />
+        <label>Не ставить</label>
+        <input type="radio" name="test" />
+
+        <button>Кнопка</button>
+
+        <hr />
+        <label>Сыр</label>
+        <input type="checkbox" />
+        <label>Лук</label>
+        <input type="checkbox" />
+        <label>Кетчуп</label>
+        <input type="checkbox" />
+        <label>Зелень</label>
+        <input type="checkbox" />
+        <label>Колбаса</label>
+        <input type="checkbox" />
+
+        <hr />
+        <input type="file" />
+
+        <hr />
+        <input type="range" />
+
+        <hr />
+        <input type="color" />
+
+        <hr />
+        <input type="date" />
+
+        <hr />
+        <input type="number" />
+    -->
+
+    <!-- Первый способ: Прямое внедрение css -->
+    <!-- style - это атрибут с помощью которого можно использовать css-техгологии для любого тега
+    <p style="color: aquamarine; font-size: 30 px">Использование CSS</p>
+    -->
+
+    <!-- Второй способ, через тег style внутри head -->
+
+    <!-- Третий способ: подключение отдельного файла css -->
+
+    <a href="index2.html"></a>
+    <p class="smile1">Привет, я весёлый :)</p>
+    <p class="smile2">Привет, я супер весёлый :D</p>
+    <p class="smile3">Привет, я кот :3</p>
+
+    <div class="block1"></div>
+  </body>
+</html>
