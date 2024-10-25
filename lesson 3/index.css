@@ -1,0 +1,91 @@
+body {
+    color: white;
+    background-color: #111;
+}
+
+h1 {
+    display: block; /* По умолчанию. Для блочных моделей. inline преобразует в строчную модель */
+
+    color: orange;
+    /* Рамка */
+    border-width: 2px;
+    border-style: dashed;
+    border-color: aquamarine;
+
+    /* Ширина */
+    width: 280px;
+    /* Высота */
+    height: 160px;
+}
+
+p {
+    font-size: 22px;
+    /* Рамка
+    border: 2px dashed orangered;
+    */
+}
+
+.text1 {
+    color: tomato;
+}
+
+.text2 {
+    color: cornflowerblue;
+}
+
+#mark {
+    display: block; /* Можно преобразовать в блочную модель */
+    width: 500px;
+    border: 5px dashed blueviolet
+}
+
+.main {
+    display: flex;
+    /* justify-content: center; (Центрирование в центре) */
+    /* justify-content: flex-start; (Центрирование справа) */
+    /* justify-content: flex-end; (Центрирование слева) */
+    /* justify-content: space-evenly; (Центрирование для каждого элемента) */
+    /* justify-content: space-between; (Центрирование с пространством только между элементами) */
+    /* justify-content: space-around; (Центрирование только с пространством вокруг)*/
+    justify-content: center;
+    align-items: center; /* Центрирование объектов */
+
+    height: 100%; /* Заполняет всю страницу, если она пустая */
+    border:  1px solid darkcyan;
+    gap: 20px; /* Отступ*/
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+
+    width: 130px;
+    height: 130px;
+
+    background-color: gray;
+
+    color: black;
+    size: 62px;
+}
+
+.blue {
+    background-color: rgb(130, 138, 255);
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+.red {
+    background-color: indianred;
+}
+
+.size-s {
+    width: 30px;
+    height: 30px;
+}
+
+.size-m {
+    width: 60px;
+    height: 60px;
+}
