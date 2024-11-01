@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+
+.main {
+    display: flex;
+
+    /* Умные отступы */
+    gap: 10px;
+
+    /* Направление flex-элементов */
+
+    flex-direction: row;
+
+    /* Переход га новую строку */
+    flex-wrap: wrap;
+
+    /* Центрирование контента align-content
+       свойства центрирования:
+        space-around - по бокам = половина между элементов
+        space-between - по бокам - 0px. А между элементами равные отступы
+        space-evenly - равные отступы
+        flex-start - центрируем весь контент вначале
+        flex-end - центрирует в конце
+        center - центрирует все в центре
+    */
+
+    /* Центрирование элементов по оси X */
+    justify-content: center;
+
+    /* Центрирование элементов по оси Y */
+    align-items: center;
+
+    border: 1px dashed salmon;
+
+    height: 600px;
+}
+
+.block {
+    display: block;
+    width: 150px;
+    height: 150px;
+
+    background-color: rgb(91, 180, 128);
+}
+
+.blue {
+    background-color: rgb(91, 112, 180);
+}
+
+.red {
+    background-color: rgb(202, 66, 66);
+}
+
+.yelow {
+    background-color: rgb(180, 180, 63);
+}
